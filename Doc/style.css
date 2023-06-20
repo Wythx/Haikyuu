@@ -1,0 +1,107 @@
+@font-face {
+    font-family:Haikyuu;
+    src: url(arc/DIMITRI_.TTF);
+}
+
+h1 {font-family:'Haikyuu';
+ font-size: 60px;
+ color: #fff;
+ text-align: center;
+ justify-content: center;}
+ 
+body{
+background-image: url(img/hina.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+h4{
+    line-height:1.5;
+    padding: 10px;
+    border: 2px solid #8149297e ;
+    text-align: center;
+    width:70% ;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.411) ;
+    color: rgb(255, 255, 255);
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75vw;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+}
+ 
+header{
+    width: 25vw;
+    display: inline-block;
+    position: fixed;
+    display: flex;
+   flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/*   para depois
+    .times_ul{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 90px;
+}
+
+
+.times_ul-li{
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+.times_ul-li-a{
+line-height:2;
+padding: 15px;
+text-decoration:none ;
+color: floralwhite;
+border: 3px solid firebrick;
+background-color: rgb(245, 123, 42) ;
+width: 100px;
+}
+
+.times_ul-li-a:hover{
+    box-shadow: 0 0 20px rgb(255, 94, 0)
+}
+*/
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    top: 2500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: beige;
+    background-color: black;
+
+}
+
+ 
